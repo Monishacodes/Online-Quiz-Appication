@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+<h1>Online Examination Application</h1>
+	<img src="banner.jpg" alt="">
+	<h2>Registration Form</h2> 
+	<br>
+<form action="register" method="post">
+	<table>
+		<tr>
+			<td><label for="">Userid</label></td>
+			<td><input type="text" name="userid" placeholder="Type Userid Here"></td>
+		</tr>
+		<tr>
+			<td><label for="">Password</label></td>
+			<td><input type="password" name="pwd" placeholder="Type Password Here"></td>
+		</tr>
+		<tr>
+			<td><label for="">Name</label></td>
+			<td><input type="text" name="uname" placeholder="Type Name Here"></td>
+		</tr>
+		<tr>
+			<td><label for="">Type</label></td>
+			<td><select name="role" >
+				<option value="admin">Admin</option>
+				<option value="guest">Guest</option>
+				<option value="manager">Manager</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button type="submit">Register</button></td>
+		</tr>
+		
+	</table>
+	</form>
+	</div>
+</body>
+</html>
